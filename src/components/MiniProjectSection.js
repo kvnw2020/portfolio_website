@@ -21,12 +21,14 @@ class MiniProjectSection extends React.Component {
                 </header>
                 <ul className="statistics">
                     <li className="style1" data-aos='slide-right'>
-                        <img src={demo} height='250' width='250' alt="My app" ></img>
+                        <a href="https://kvnw2020.github.io/Finding_Recycling_Bin/" target='_blank'>
+                            <img src={demo} height='250' width='250' alt="My app" ></img>
+                        </a>
                         <p>About to throw away a plastic bottle? A finished can of coke? Use this app to help you find the nearest public recycling bin in NYC.</p>
                     </li>
                     <li className="style2" data-aos='slide-left'>
                         <a href="https://kvnw2020.github.io/toDoList/" target='_blank'>
-                        <img src={secDemo} height='250' width='250' alt="My app" ></img>
+                            <img src={secDemo} height='250' width='250' alt="My app" ></img>
                         </a>
                         <p>This app allows you to enter tasks as checkboxes. It acts as a reminder and lets you know when you completed each one.</p>
                     </li>

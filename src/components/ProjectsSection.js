@@ -21,7 +21,9 @@ class ProjectsSection extends React.Component {
                 </header>
                 <ul className="statistics">
                     <li className="style1" data-aos='slide-right'>
-                        <img src={demo} height='400' width='400' alt="My app" ></img>
+                        <a href="https://kvnw2020.github.io/Finding_Recycling_Bin/" target='_blank'>
+                            <img src={demo} height='400' width='400' alt="My app" ></img>
+                        </a>
                         <p>About to throw away a plastic bottle? A finished can of coke? Use this app to help you find the nearest public recycling bin in NYC.</p>
                     </li>
                     <li className="style2" data-aos='slide-left'>
