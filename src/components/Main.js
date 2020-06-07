@@ -32,12 +32,13 @@ class Main extends Component {
     render(){
 
         const { windowWidth } = this.state;
+        console.log(windowWidth)
 
         return(
             <div id='main'>
                 <Intro />
                 <SkillsSection />
-                {windowWidth > 768 ? <ProjectsSection /> : <MiniProjectSection />}
+                {windowWidth > 1050 ? <ProjectsSection /> : <MiniProjectSection />}
             </div>
         )
     }

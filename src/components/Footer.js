@@ -12,7 +12,7 @@ function Footer() {
                     <dd><a href="wkevg12@gmail.com">wkevg12@gmail.com</a></dd>
                 </dl>
                 <ul className="icons">
-                    <li><a href="https://github.com/kvnw2020" className="icon brands fa-github alt"><span className="label">GitHub</span></a></li>
+                    <li><a href="https://github.com/kvnw2020" target='_blank' className="icon brands fa-github alt"><span className="label">GitHub</span></a></li>
                 </ul>
             </section>
         </footer>

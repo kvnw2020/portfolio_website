@@ -1,15 +1,15 @@
-import React from 'react'
-import coffee from '../images/animat-coffee.gif'
+import React, { Component } from 'react'
+import TitleLogo from './TitleLogo'
 
 
-function Header() {
-    return(
-        <header id="header" className="alt">
-            <img src={coffee} className='myLogo' height='210' width='210' alt="" />
-            <h1>Kevin Wang</h1>
-            <p>Front End Developer</p>
-        </header>
-    )
+class Header extends Component {
+
+    render() {
+
+        return(
+            <TitleLogo />
+        )
+    }
 }
 
 export default Header
