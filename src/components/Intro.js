@@ -21,11 +21,11 @@ class Intro extends React.Component {
                             <h2>About Me</h2>
                         </header>
                         <p  data-aos='slide-up'>
-                            Hey, there. I am an aspiring software developer who mainly focuses on frontend development. 
+                            Hey, there. I am an aspiring software developer who focuses on frontend development. 
                             I graduated Brooklyn College with a degree in Mathematics. After graduation, 
                             I dabbled with various technologies like Python, Django, and matplotlib. 
-                            Most of my time were spend on HTML, CSS, JavaScript, and React. 
-                            I mainly taught myself and am continuously refining and learning about my craft. You will find some
+                            Most of my time is spent on HTML, CSS, JavaScript, and React. 
+                            I am for the most self taught and continuously refining and learning about my craft. You will find some
                             of my works further down my page.
                         </p>
                     
